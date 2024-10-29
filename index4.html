@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <form action="/submit" method="post" style="display: grid; grid-column: repeat(1fr);">
+        <label for="input_number">Случайное число</label>
+        <input type="password"id="input_number" name="input_number" value="1">
+        
+        <label>
+            <input type="radio"name="select" value="select1">
+            Вариант ответа 1
+        </label> 
+        <label>
+            <input type="radio"name="select" value="select2">
+            Вариант ответа 2
+        </label>
+
+        <label for="country">Страна</label>
+        <select id="country"> name="country"
+            <option value=""></option>
+            <option value="rus">Россия</option>
+            <option value="eng">Англия</option>
+            <option value="deu">Германия</option>
+        </select>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <input type="checkbox" id="checkbox1" name="checkbox">
+        <button type="submit">кнопка</button>
+       </form>
+</body>
+</html>

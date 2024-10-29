@@ -1,0 +1,97 @@
+.header-menu-bg
+{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap : 1px;
+    text-align:center;    
+}
+
+.container 
+{
+     grid-auto-columns: 75px 100px 50px;
+     grid-auto-flow: column;
+
+}
+header
+{
+    background: black;
+    height: 45px;
+    text-align:center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+
+.logodiv
+{
+        text-decoration: none;
+        background: var(--topbuttonbgk);
+        color: var(--colortxtgray);
+        padding: 7px;
+        font-family: arial;
+        border-radius: 4px;
+        font-size: 16px;
+}
+
+div.location-content {
+    background:greenyellow;
+    height: 45px;
+}
+
+div.location-bg 
+{
+    background: greenyellow;
+    border-top: 1px solid greenyellow;
+    color: wheat;
+    margin-bottom: 19px;
+    min-height: 45px;
+}
+
+body
+{
+    background: var(--bodybgk);
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: center
+}
+div.header-menu
+{
+    position: relative;
+    margin: 0 auto;
+    width: 996px;
+    padding: 24px 0 24px 0;
+    color:black;
+    line-height: 1.33333333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}    
+.piksel
+{
+    background: var(--bodybgk);
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align:center
+}
+
+.text1
+{
+    text-align:right;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap : 1px;
+    text-align:center; 
+}
+div.global-container
+ {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    color: var(--colorblacktowhite);  width: 996px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    line-height: 1.33333333333;
+}
+
+
+    
+    
+    
