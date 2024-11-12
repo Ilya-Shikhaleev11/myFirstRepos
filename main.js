@@ -88,16 +88,69 @@
 //     j--
 // }while (j>0)
 
-let x =prompt("введите число от 1 до 10") 
-for (let j=1; j<=10; j++){
-    for(let i=1; i<=10; i++)
+// let x =prompt("введите число от 1 до 10") 
+// for (let j=1; j<=10; j++)
+// {
+//     for(let i=1; i<=10; i++)
     
-        {
-                console.log(j+"*"+i+"="+j*i)
-        }
+//         {
+//                 console.log(j+"*"+i+"="+j*i)
+//         }
         
+// }
+
+// let fruit = ["appel","banana","orange"]
+// console.log(fruit[0])
+// for ( let i = 0; i< fruit.length; i++)
+// {console.log(fruit[i])}
+
+// for (let item in fruit)
+// {console.leg(item)}
+
+// let search_fruit = prompt ("Введите фрукт поиска")
+// let fruit = ["appel","banana","orange"]
+// for ( let i=0; i<fruit.length; i++){
+
+// if (fruit[i] === search_fruit){
+//     console.log("Фрукт найден")
+//         break
+//     }
+// }
+
+// let fruit = ["appel","banana","orange"]
+// while(true){
+//     let search_fruit = prompt ("Введите фрукт поиска")
+//     let message = "Фрукт не найден"
+//     if (search_fruit === "break"){
+//         break
+//     }
+//     else if (search_fruit === "add"){
+//         fruit.push(prompt("Введите фрукт для добавления"))
+//     }
+//     else{
+  
+//         for (let i=0;i=fruit.lenght; i++){
+//             if (fruit[i] == search_fruit.trim(" ")){
+//                 message="Фрукт найден"
+//                 break
+//             }    
+//         }
+
+//     }  
+//     console.log(message)             
+// }
+
+let nums =[]
+let nam = Number(prompt("Введите число"))
+
+for (let i=0; i<nam; i++){
+    let input_nam=Number(prompt("Введите число"))
+    nums.push(input_nam)
 }
-
-
-
-
+let sum = 0
+for (let i=0; i< nums.length; i++){
+    sum += nums[i]
+}
+// console.log(nums)
+// console.log(sum)
+console.log(sum/nums.length)
