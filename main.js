@@ -140,17 +140,18 @@
 //     console.log(message)             
 // }
 
-let nums =[]
-let nam = Number(prompt("Введите число"))
+// let nums =[]
+// let nam = Number(prompt("Введите число"))
 
-for (let i=0; i<nam; i++){
-    let input_nam=Number(prompt("Введите число"))
-    nums.push(input_nam)
-}
-let sum = 0
-for (let i=0; i< nums.length; i++){
-    sum += nums[i]
-}
-// console.log(nums)
-// console.log(sum)
-console.log(sum/nums.length)
+// for (let i=0; i<nam; i++){
+//     let input_nam=Number(prompt("Введите число"))
+//     nums.push(input_nam)
+// }
+// let sum = 0
+// for (let i=0; i< nums.length; i++){
+//     sum += nums[i]
+// }
+// // console.log(nums)
+// // console.log(sum)
+// console.log(sum/nums.length)
+
