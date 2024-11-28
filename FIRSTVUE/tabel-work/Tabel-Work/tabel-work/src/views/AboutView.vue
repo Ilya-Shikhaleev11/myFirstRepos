@@ -62,7 +62,7 @@ th
 }
 </style> -->
 
-<template>
+<!-- <template>
   <div>
       <h1>Периодическая таблица элементов</h1>
   
@@ -122,4 +122,6 @@ th
   background: green; 
   color: black;  
 }
-</style> 
+</style>  -->
+
+
